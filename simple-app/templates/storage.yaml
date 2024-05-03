@@ -1,0 +1,36 @@
+{{- range .Values.volumes }}
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: {{ .name }}-pv
+spec:
+  capacity:
+    storage: {{ .size }}
+  volumeMode: Filesystem
+  accessModes:
+    - {{ .accessMode }}
+  storageClassName: {{ .storageClassName }}
+  local:
+    path: {{ .localPath }}
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - {{ .nodeHostname }}
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .name }}-pvc
+spec:
+  accessModes:
+    - {{ .accessMode }}
+  storageClassName: {{ .storageClassName }}
+  resources:
+    requests:
+      storage: {{ .size }}
+{{- end }}
