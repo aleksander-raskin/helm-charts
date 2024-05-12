@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   simple-app:
   - apiVersion: v2
-    created: "2024-05-05T14:52:26.646198+03:00"
+    created: "2024-05-12T15:48:40.336158+03:00"
+    description: A Helm chart for a simple application for Kubernetes
+    digest: 2591329ae9123ca67f5e56c7f673d1c6a937081b5e483f0acbb32908b8bcc876
+    name: simple-app
+    type: application
+    urls:
+    - https://aleksander-raskin.github.io/helm-charts/simple-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2024-05-12T15:48:40.334022+03:00"
     description: A Helm chart for a simple application for Kubernetes
     digest: 2429f7c33577b9b99bca719ed0a807d2c1dbe4d06891bca7f23a205ca14d8e65
     name: simple-app
@@ -11,7 +20,7 @@ entries:
     - https://aleksander-raskin.github.io/helm-charts/simple-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2024-05-05T14:52:26.645253+03:00"
+    created: "2024-05-12T15:48:40.330166+03:00"
     description: A Helm chart for a simple application for Kubernetes
     digest: 2ae8571bf25012d38343b93cf698747cc379ccaf075d6f50b570fdafd22df8ac
     name: simple-app
@@ -19,4 +28,4 @@ entries:
     urls:
     - https://aleksander-raskin.github.io/helm-charts/simple-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-05T14:52:26.644333+03:00"
+generated: "2024-05-12T15:48:40.324813+03:00"
