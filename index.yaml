@@ -1,8 +1,19 @@
 apiVersion: v1
 entries:
+  k8s-mediaserver:
+  - apiVersion: v2
+    appVersion: 0.10.0
+    created: "2024-11-25T12:50:02.958091+01:00"
+    description: A Helm chart for Kubernetes mediaserver
+    digest: a906a4c99ae13c6bc73c6dce5ef1653eecf564c69cfed382d298883e0c7d649d
+    name: k8s-mediaserver
+    type: application
+    urls:
+    - https://aleksander-raskin.github.io/helm-charts/k8s-mediaserver-0.10.0.tgz
+    version: 0.10.0
   simple-app:
   - apiVersion: v2
-    created: "2024-05-12T15:48:40.336158+03:00"
+    created: "2024-11-25T12:50:02.960079+01:00"
     description: A Helm chart for a simple application for Kubernetes
     digest: 2591329ae9123ca67f5e56c7f673d1c6a937081b5e483f0acbb32908b8bcc876
     name: simple-app
@@ -11,7 +22,7 @@ entries:
     - https://aleksander-raskin.github.io/helm-charts/simple-app-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: "2024-05-12T15:48:40.334022+03:00"
+    created: "2024-11-25T12:50:02.959338+01:00"
     description: A Helm chart for a simple application for Kubernetes
     digest: 2429f7c33577b9b99bca719ed0a807d2c1dbe4d06891bca7f23a205ca14d8e65
     name: simple-app
@@ -20,7 +31,7 @@ entries:
     - https://aleksander-raskin.github.io/helm-charts/simple-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2024-05-12T15:48:40.330166+03:00"
+    created: "2024-11-25T12:50:02.958714+01:00"
     description: A Helm chart for a simple application for Kubernetes
     digest: 2ae8571bf25012d38343b93cf698747cc379ccaf075d6f50b570fdafd22df8ac
     name: simple-app
@@ -28,4 +39,4 @@ entries:
     urls:
     - https://aleksander-raskin.github.io/helm-charts/simple-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-12T15:48:40.324813+03:00"
+generated: "2024-11-25T12:50:02.956567+01:00"
